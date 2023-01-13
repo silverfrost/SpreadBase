@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "fsharp example": {
+      "commandName": "Project"
+    }
+  }
+}

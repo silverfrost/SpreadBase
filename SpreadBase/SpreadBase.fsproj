@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>fsharp_example</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="launchSettings.json" />
+    <Content Include="static\app.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="static\app.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Utils.fs" />
+    <Compile Include="Parser.fs" />
+    <Compile Include="Spreadsheet.fs" />
+    <Compile Include="Eval.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+  <ItemGroup>
+    <PackageReference Include="Saturn" Version="0.14.1" />
+  </ItemGroup>
+
+</Project>

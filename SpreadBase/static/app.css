@@ -1,0 +1,44 @@
+﻿body { background-color: white; }
+
+.sheet {
+}
+
+.sheet td {
+}
+
+#formula-bar {
+    width: 70ch;
+}
+
+.cell {
+    min-width: 8ch;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.rowname {
+    min-width: 7ch;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    background-color: silver;
+}
+
+.colheader {
+    min-width: 5ch;
+    border: 1px solid black;
+    text-align: center;
+    background-color: silver;
+}
+
+.numcell {
+    text-align: right;
+}
+
+.cellselected {
+    border: 2px solid blue;
+}
+
+.cellrefed {
+    border: 2px solid green;
+}
